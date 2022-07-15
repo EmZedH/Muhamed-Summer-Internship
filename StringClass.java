@@ -10,5 +10,6 @@ public class StringClass {
         System.out.println(s.trim());
         System.out.println(s.replace('H','J'));
         System.out.println(s.substring(5));
+        System.out.println(s.substring(5,8));
     }
 }
