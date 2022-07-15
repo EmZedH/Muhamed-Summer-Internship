@@ -1,22 +1,23 @@
+import java.util.Scanner;
+
 public class Second {
 
     public static void main(String[] args) {
-        int[] a={1,5,7};
-        int maxno=a[0],maxno2=a[0];
-        for(int i=1;i<a.length;i++){
-            if(maxno<a[i]){
-                maxno=a[i];
-            }
+        int[] a= new int[3];
+        Scanner in = new Scanner(System.in);
+        for(int i=0;i<3;i++){
+            a[i]=in.nextInt();
         }
-        for(int i=0;i<a.length;i++){
-            if(a[i]==maxno){
-                continue;
-            }
-            if(maxno2<a[i]){
-                maxno2=a[i];
-            }
+        if((a[0]<=a[1] && a[0]>=a[2])||(a[0]<=a[2] && a[0]>=a[1])){
+            System.out.println("Second largest number is "+a[0]);
         }
-        System.out.println("Second Maximum number is = "+maxno2);
+        else if((a[1]<=a[0] && a[1]>=a[2])||(a[1]<=a[2] && a[1]>=a[0])){
+            System.out.println("Second largest number is "+a[1]);
+        }
+        else{
+            System.out.printf("Second largest number is "+a[2]);
+        }
+
 
     }
 }
