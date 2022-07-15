@@ -1,4 +1,4 @@
-public class Main {
+public class First {
 
     public static void main(String[] args) {
         int number=8,pos=-1;
