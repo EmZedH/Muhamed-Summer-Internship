@@ -11,5 +11,6 @@ public class StringClass {
         System.out.println(s.replace('H','J'));
         System.out.println(s.substring(5));
         System.out.println(s.substring(5,8));
+        System.out.println(s.charAt(5));
     }
 }
