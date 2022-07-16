@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Second {
+public class Ifelse {
 
     public static void main(String[] args) {
         int[] a= new int[3];
