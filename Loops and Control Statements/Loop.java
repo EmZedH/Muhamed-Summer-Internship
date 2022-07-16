@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class First {
+public class Loop {
 
     public static void main(String[] args) {
         int pos=-1;
