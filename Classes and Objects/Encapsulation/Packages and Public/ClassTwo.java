@@ -5,7 +5,7 @@ public class ClassTwo {
         PackageOne.classOne obj = new PackageOne.classOne();
         System.out.println("Value of y in classOne = "+obj.y);
         System.out.println("Value of z in classOne = "+obj.z);
-        obj.function();
+        obj.printFromClassOne();
 
     }
 }
