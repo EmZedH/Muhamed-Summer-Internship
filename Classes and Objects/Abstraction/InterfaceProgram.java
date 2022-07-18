@@ -1,14 +1,14 @@
-interface firstinter{
+interface FirstInterface{
     void print();
 }
-class firstclass implements firstinter{
+class FirstClass implements FirstInterface{
     public void print(){
         System.out.println("Successfully implemented from interface");
     };
 }
-public class interfaceprog {
+public class InterfaceProgram {
     public static void main(String[] args) {
-        firstclass c = new firstclass();
-        c.print();
+        firstclass classvar = new firstclass();
+        classvar.print();
     }
 }
