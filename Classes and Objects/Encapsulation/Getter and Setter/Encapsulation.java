@@ -8,7 +8,7 @@ class Number{
     }
 }
 
-public class encapsulation {
+public class Encapsulation {
     public static void main(String[] args) {
         Number number = new Number();
         number.setNum(2);
