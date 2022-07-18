@@ -5,7 +5,7 @@ public class ClassTwo extends ClassOne {
         ClassTwo obj = new ClassTwo();
         System.out.println("Value of y in ClassOne = "+obj.y);
         System.out.println("Value of z in ClassOne = "+obj.z);
-        obj.printFunction();
+        obj.printFromClassOne();
 
     }
 }
