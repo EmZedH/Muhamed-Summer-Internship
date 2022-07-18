@@ -1,20 +1,20 @@
-class ovrclass1{
+class ClassOne{
     void func(){
         System.out.println("From 1st class - ovrclass1");
     }
 }
-class ovrclass2{
+class ClassTwo{
     String func(){
         return "From 2nd class - ovrclass2";
     }
 }
 
-public class overriding {
+public class Overriding {
     public static void main(String[] args) {
-        ovrclass1 ob = new ovrclass1();
-        ovrclass2 oc = new ovrclass2();
-        ob.func();
-        System.out.println(oc.func());
+        ClassOne obj1 = new ClassOne();
+        ClassTwo obj2 = new ClassTwo();
+        obj1.func();
+        System.out.println(obj2.func());
 
     }
 }
