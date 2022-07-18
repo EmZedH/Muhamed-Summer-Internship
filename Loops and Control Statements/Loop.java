@@ -3,12 +3,12 @@ public class Loop {
 
     public static void main(String[] args) {
         int pos=-1;
-        int[] a = {10,5,2,3,7};
+        int[] array = {10,5,2,3,7};
         Scanner in = new Scanner(System.in);
         System.out.print("Enter number: ");
         int number = in.nextInt();
         for(int i=0;i<a.length;i++){
-            if(a[i]==number){
+            if(array[i]==number){
                 pos=i;
                 break;
             }
