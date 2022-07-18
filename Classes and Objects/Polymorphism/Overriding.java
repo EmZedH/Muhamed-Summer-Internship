@@ -3,7 +3,7 @@ class ClassOne{
         System.out.println("From 1st class - ovrclass1");
     }
 }
-class ClassTwo{
+class ClassTwo extends ClassOne{
     String func(){
         return "From 2nd class - ovrclass2";
     }
