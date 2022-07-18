@@ -1,4 +1,4 @@
-public class ClassObject {
+public class defaultClass {
     int x=2;
     int y=5;
     int z=x+y;
