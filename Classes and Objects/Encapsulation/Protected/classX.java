@@ -1,9 +1,9 @@
-package pack1;
+package PackageOne;
 
-public class classX {
+public class ClassOne {
    protected int y = 34;
    protected String z = "Hello";
-   protected void xfunc(){
-        System.out.println("Method in classX executed");
+   protected void printFunction(){
+        System.out.println("Method in ClassOne executed");
     }
 }
