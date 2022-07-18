@@ -1,19 +1,19 @@
-class simply{
+class StaticKeywordClass{
     static int x = 2;
     static void increment(){
         x++;
     }
 }
 
-public class staticKeyword{
+public class StaticKeyword{
     public static void main(String[] args) {
-        simply s = new simply();
+        StaticKeywordClass statkey = new StaticKeywordClass();
         System.out.println("s.x = "+s.x);
-        s.x=4;
-        simply y = new simply();
+        statkey.x=4;
+        StaticKeywordClass y = new StaticKeywordClass();
         System.out.println("y.x after changing s.x to 4 = "+y.x);
-        s.increment();
-        simply z = new simply();
+        statkey.increment();
+        StaticKeywordClass z = new StaticKeywordClass();
         System.out.println("z.x after s.increment() is invoked = "+z.x);
     }
 }
