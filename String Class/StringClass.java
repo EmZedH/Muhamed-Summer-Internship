@@ -1,16 +1,16 @@
 public class StringClass {
     public static void main(String[] args){
-        String s = " Hi Muhamed ";
-        String m = new String("How are u?");
-        System.out.println(s);
-        System.out.println(s.length());
-        System.out.println(s.toUpperCase());
-        System.out.println(s.toLowerCase());
-        System.out.println(s.concat(m));
-        System.out.println(s.trim());
-        System.out.println(s.replace('H','J'));
-        System.out.println(s.substring(5));
-        System.out.println(s.substring(5,8));
-        System.out.println(s.charAt(5));
+        String str1 = " Hi Muhamed ";
+        String str2 = new String("How are u?");
+        System.out.println(str1);
+        System.out.println(str1.length());
+        System.out.println(str1.toUpperCase());
+        System.out.println(str1.toLowerCase());
+        System.out.println(str1.concat(str2));
+        System.out.println(str1.trim());
+        System.out.println(str1.replace('H','J'));
+        System.out.println(str1.substring(5));
+        System.out.println(str1.substring(5,8));
+        System.out.println(str1.charAt(5));
     }
 }
