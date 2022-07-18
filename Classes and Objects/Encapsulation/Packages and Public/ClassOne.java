@@ -1,6 +1,6 @@
-package com.pack1.one;
+package PackageaOne;
 
-public class classOne {
+public class ClassOne {
    public int y = 34;
    public String z = "Hello";
    public void function(){
