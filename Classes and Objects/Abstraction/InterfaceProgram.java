@@ -1,7 +1,7 @@
-interface FirstInterface{
+interface Runnable{
     void print();
 }
-class FirstClass implements FirstInterface{
+class FirstClass implements Runnable{
     public void print(){
         System.out.println("Successfully implemented from interface");
     };
