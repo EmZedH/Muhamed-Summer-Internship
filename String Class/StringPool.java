@@ -4,6 +4,6 @@ public class StringPool {
         String str2 = new String("hello");                 //creates in heap memory
         String str3 = new String("hello").intern();        //shifts to string pool
         System.out.println(str1==str2);                    //false
-        System.out.println(str1==str3);                     //true
+        System.out.println(str1==str3);                    //true
     }
 }
