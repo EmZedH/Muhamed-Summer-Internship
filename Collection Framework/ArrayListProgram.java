@@ -2,11 +2,11 @@ import java.util.*;
 
 public class ArrayListProgram {
     public static void main(String[] args){
-        ArrayList<Integer> arraylist = new ArrayList<Integer>();
-        arraylist.add(1);
-        arraylist.add(2);
-        arraylist.add(9);
-        Iterator<Integer> it = arraylist.iterator();
+        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(9);
+        Iterator<Integer> it = arrayList.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
         }
