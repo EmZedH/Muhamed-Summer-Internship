@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class UserInterface {
-    static float cardSwipeAmount= 200f;
+    static float cardSwipeAmount= 150f;
     public static void printAccountDetails(Account account){
         System.out.println("-----------------------------");
         System.out.println("Account Details: ");
