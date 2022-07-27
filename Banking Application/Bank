@@ -1,0 +1,15 @@
+Not all [Accounts] can have [ATM Cards]
+
+[Transactions] common functionality is [Deposit]
+
+[Transactions] for [Accounts w/o ATM Card] can only perform [Deposit]
+
+[Transactions] for [Accounts w/ ATM Card] can perform [Deposit], [Withdrawal], [Swipe-shopping]
+
+[ATM Card] has no functionality other than a constructor
+
+
+-> Create list of Accounts functionality
+-> No account number, only card number
+-> Transactions always check if balance > 100
+->
